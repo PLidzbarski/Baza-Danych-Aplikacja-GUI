@@ -1,0 +1,118 @@
+﻿<Page x:Class="Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages.Logowanie"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="450"
+      Title="Logowanie">
+
+    <Grid>
+        <Grid
+            Name="main_grid"
+            Background="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="200" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+            <Label
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Content="LOGOWANIE"
+                FontSize="30" />
+
+            <Grid
+                x:Name="gridLogowawnie"
+                Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition
+                        Width="205" />
+                    <ColumnDefinition
+                        Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="150" />
+                    <RowDefinition
+                        Height="*" />
+                </Grid.RowDefinitions>
+                <StackPanel
+                    Grid.Column="1"
+                    HorizontalAlignment="Left">
+
+                    <TextBox
+                        Name="login"
+                        Width="150" />
+                    <PasswordBox
+                        Name="password" />
+                    <StackPanel
+                        Orientation="Horizontal">
+                        <CheckBox
+                            Name="revealModeCheckBox"
+                            Checked="CheckBox_Checked"
+                            Unchecked="revealModeCheckBox_Unchecked" />
+                        <TextBlock
+                            Text="Odkryj Hasło" />
+                    </StackPanel>
+                    <Button
+                        Name="rejestracjaUser"
+                        Height="30"
+                        Click="Button_Click"
+                        Content="Login" />
+
+                </StackPanel>
+                <StackPanel
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalAlignment="Left">
+                    <Button
+                        Name="rejestruj"
+                        Width="150"
+                        Height="30"
+                        Click="rejestruj_Click"
+                        Content="Rejestracja" />
+                    
+                </StackPanel>
+                <StackPanel
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Orientation="Horizontal">
+                    <Button 
+                        Content="Notatka"
+                        Background="Aqua"
+                        Click="Button_Click_1"/>
+                    <TextBlock
+                        Text="Pozostałe próby logowania:" />
+                    <TextBlock
+                        Name="licznikLogowania"
+                        Width="20"
+                        Background="LightGray"
+                        Text="3" />
+                </StackPanel>
+                <StackPanel
+                    Grid.Column="0"
+                    HorizontalAlignment="Right">
+                    <TextBlock
+                        Text="LOGIN" />
+                    <TextBlock
+                        Text="HASŁO" />
+                </StackPanel>
+            </Grid>
+            <TextBox
+                Name="textboxPassword"
+                Grid.Row="1"
+                Width="150"
+                Height="20"
+                Margin="205,16,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                TextWrapping="Wrap"
+                Visibility="Hidden" />
+        </Grid>
+    </Grid>
+</Page>
