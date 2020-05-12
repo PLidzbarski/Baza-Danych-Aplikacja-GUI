@@ -89,6 +89,17 @@
                 Content="Odrzucenie zapisu" />
 
         </StackPanel>
-        
+        <Button
+            Width="186"
+            Height="40"
+            Margin="104,0,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click"
+            Content="Wyświetl bazę danych w konsoli"
+            Grid.Column="1"
+            Grid.Row="2"
+            Grid.ColumnSpan="2" />
+
     </Grid>
 </Page>

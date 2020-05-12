@@ -32,3 +32,35 @@ C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Paweł Lidzbarski - logowanie do 
 C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Paweł Lidzbarski - logowanie do bazy danych\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.exe
 C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Paweł Lidzbarski - logowanie do bazy danych\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.pdb
 C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Paweł Lidzbarski - logowanie do bazy danych\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.csprojAssemblyReference.cache
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\Paweł Lidzbarski - logowanie do bazy danych.exe.config
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\Paweł Lidzbarski - logowanie do bazy danych.exe
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\Paweł Lidzbarski - logowanie do bazy danych.pdb
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\EntityFramework.dll
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\System.Data.SQLite.dll
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\EntityFramework.xml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\System.Data.SQLite.xml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.csprojAssemblyReference.cache
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\MainWindow.g.cs
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\Admin.g.cs
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\Logowanie.g.cs
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\RejestracjaUser.g.cs
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\User.g.cs
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\App.g.cs
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych_MarkupCompile.cache
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych_MarkupCompile.lref
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\MainWindow.baml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\Admin.baml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\Logowanie.baml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\RejestracjaUser.baml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Pages\User.baml
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.g.resources
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł_Lidzbarski___logowanie_do_bazy_danych.Properties.Resources.resources
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.csproj.GenerateResource.cache
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.csproj.CopyComplete
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.exe
+C:\Users\IOHU\OneDrive\c#_projects\Baza_danych\Baza Danych Aplikacja GUI\Paweł Lidzbarski - logowanie do bazy danych\obj\Debug\Paweł Lidzbarski - logowanie do bazy danych.pdb

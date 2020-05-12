@@ -286,14 +286,7 @@
                 FontSize="16"
                 Foreground="LightGray" />
         </Grid>
-        <Button
-            Width="76"
-            Height="21"
-            Margin="364,480,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Button_Click"
-            Content="Baza Danych" />
+        
         <Label
             Name="DB_komunikat"
             Width="76"

@@ -34,8 +34,28 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 		{
 			InitializeComponent();
 			databaseObject = new Database();
+			ResetIdInDataBase();
+			ClearDataBase();
 			createAdmin();
 			createUser();
+		}
+		void ResetIdInDataBase() //resetowanie licznika id w obu istniejacych tablicach bazy danych
+		{
+			SQLiteCommand myCommand = new SQLiteCommand(databaseObject.myConnection);
+			databaseObject.OpenConnection();
+			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'User'";
+			myCommand.ExecuteNonQuery();
+			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'Role'";
+			myCommand.ExecuteNonQuery();
+			databaseObject.CloseConnection();
+		}
+		void ClearDataBase() //czyszczenie rekordow w dwoch tablicach
+		{
+			SQLiteCommand myCommand = new SQLiteCommand(databaseObject.myConnection);
+			databaseObject.OpenConnection();
+			myCommand.CommandText = "DELETE FROM User";
+			myCommand.ExecuteNonQuery();
+			databaseObject.CloseConnection();
 		}
 		void createAdmin()
 		{

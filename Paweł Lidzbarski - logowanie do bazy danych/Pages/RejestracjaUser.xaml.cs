@@ -34,8 +34,7 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 			InitializeComponent();
 			InitializeComponent();
 			databaseObject = new Database();
-			ResetIdInDataBase();
-			ClearDataBase();
+			
 			
 		}
 		public static void emailSending(string mail)
@@ -78,40 +77,9 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 			}
 		}
 
-		void ShowDataBaseInConsole() //wyswietlanie bazy danych w konsoli
-		{
-			databaseObject.OpenConnection();
-			string stm = "SELECT * FROM User";
-			var cmd = new SQLiteCommand(stm, databaseObject.myConnection);
-			SQLiteDataReader rdr = cmd.ExecuteReader();
-			Console.WriteLine($"{rdr.GetName(0),-8} {rdr.GetName(1),-10} {rdr.GetName(2),-15} {rdr.GetName(3),-15} {rdr.GetName(4),-10} {rdr.GetName(5),-30} {rdr.GetName(6),-15} {rdr.GetName(7),-15} {rdr.GetName(8),-16} {rdr.GetName(9),-20}");
+		
 
-			while (rdr.Read())
-			{
-				Console.WriteLine($@"{rdr.GetInt32(0),-8} {rdr.GetString(1),-10} {rdr.GetString(2),-15} {rdr.GetString(3),-15} {rdr.GetString(4),-10} {rdr.GetString(5),-30} {rdr.GetString(6),-15} {rdr.GetString(7),-15} {rdr.GetString(8),-16} {rdr.GetString(9),-20}");
-			}
-		}
-
-		void ResetIdInDataBase() //resetowanie licznika id w obu istniejacych tablicach bazy danych
-		{
-			SQLiteCommand myCommand = new SQLiteCommand(databaseObject.myConnection);
-			databaseObject.OpenConnection();
-			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'User'";
-			myCommand.ExecuteNonQuery();
-			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'Role'";
-			myCommand.ExecuteNonQuery();
-			databaseObject.CloseConnection();
-		}
-		void ClearDataBase() //czyszczenie rekordow w dwoch tablicach
-		{
-			SQLiteCommand myCommand = new SQLiteCommand(databaseObject.myConnection);
-			databaseObject.OpenConnection();
-			myCommand.CommandText = "DELETE FROM User";
-			myCommand.ExecuteNonQuery();
-			myCommand.CommandText = "DELETE FROM Role";
-			myCommand.ExecuteNonQuery();
-			databaseObject.CloseConnection();
-		}
+		
 
 		void CheckingEmail() //sprawdzanie czy obecny email widnieje w bazie
 		{
@@ -330,11 +298,7 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 			Rejestruj.IsEnabled = true;
 		}
 
-		private void Button_Click(object sender, RoutedEventArgs e)
-		{
-			ShowDataBaseInConsole();
-			DB_komunikat.Visibility = Visibility.Visible;
-		}
+		
 
 		private void Button_Click_1(object sender, RoutedEventArgs e)
 		{

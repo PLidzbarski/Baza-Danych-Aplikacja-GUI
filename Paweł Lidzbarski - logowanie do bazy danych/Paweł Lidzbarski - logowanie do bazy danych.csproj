@@ -112,17 +112,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Wydarzenie.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pages\User.xaml.cs">
       <DependentUpon>User.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Wydarzenie.xaml.cs">
-      <DependentUpon>Wydarzenie.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
