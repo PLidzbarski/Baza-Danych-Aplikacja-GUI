@@ -40,13 +40,13 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 		public static void emailSending(string mail)
 		{
 			string to = mail;
-			string from = "automatycznymailpawel@gmail.com";
+			string from = "automail.ppiu@gmail.com";
 			MailMessage wiadomosc = new MailMessage(from, to);
 			wiadomosc.Subject = "Potwierdzenie";
 			wiadomosc.Body = "Mail weryfikacyjny rejestrację :)";
 
 			SmtpClient client = new SmtpClient();
-			client.Credentials = new NetworkCredential("automatycznymailpawel@gmail.com", "autmaipaw");
+			client.Credentials = new NetworkCredential("automail.ppiu@gmail.com", "automail1");
 			client.Host = "smtp.gmail.com";
 			client.Port = 587;
 			client.EnableSsl = true;

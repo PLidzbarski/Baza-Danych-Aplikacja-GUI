@@ -78,8 +78,11 @@
                 TextWrapping="Wrap"
                 />
             <DatePicker
+                Name="terminWydarzenia"
+                
                 Height="30" />
             <ComboBox
+                Name="TypUczestnictwa"
                 Height="30">
                 <ComboBoxItem
                     Name="sluchacz"
@@ -96,6 +99,7 @@
 
             </ComboBox>
             <ComboBox
+                Name="Wyzywienie"
                 Height="30">
                 <ComboBoxItem
                     x:Name="bezPreferencji"
@@ -114,7 +118,8 @@
             <Button
                 Content="Zapisz"
                 Height="40"
-                Width="225" />
+                Width="225"
+                Click="Button_Click" />
         </StackPanel>
     </Grid>
 </Page>

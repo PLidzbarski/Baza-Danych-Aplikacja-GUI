@@ -25,6 +25,7 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 	public partial class Logowanie : Page
 	{
 		Database databaseObject;
+		Dane dane = new Dane();
 		bool succesLogin = false;
 		bool succesHaslo = false;
 		int probaLogowania = 3;
@@ -45,7 +46,9 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 			databaseObject.OpenConnection();
 			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'User'";
 			myCommand.ExecuteNonQuery();
-			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'Role'";
+			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'Wydarzenia'";
+			myCommand.ExecuteNonQuery();
+			myCommand.CommandText = "UPDATE sqlite_sequence SET seq = 0 WHERE name = 'ZapisNaWydarzenia'";
 			myCommand.ExecuteNonQuery();
 			databaseObject.CloseConnection();
 		}
@@ -54,6 +57,10 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 			SQLiteCommand myCommand = new SQLiteCommand(databaseObject.myConnection);
 			databaseObject.OpenConnection();
 			myCommand.CommandText = "DELETE FROM User";
+			myCommand.ExecuteNonQuery();
+			myCommand.CommandText = "DELETE FROM Wydarzenia";
+			myCommand.ExecuteNonQuery();
+			myCommand.CommandText = "DELETE FROM ZapisNaWydarzenia";
 			myCommand.ExecuteNonQuery();
 			databaseObject.CloseConnection();
 		}
@@ -129,7 +136,7 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 		{
 			SQLiteCommand myCommand = new SQLiteCommand(databaseObject.myConnection);
 			databaseObject.OpenConnection();
-			myCommand.CommandText = "SELECT Login FROM User WHERE Login='" + login.Text + "' AND Hasło='" + password.Password + "'";
+			myCommand.CommandText = "SELECT Login FROM User WHERE Login='" + login.Text+"'";
 			myCommand.ExecuteNonQuery();
 			var count = myCommand.ExecuteScalar();
 			if (count != null)
@@ -196,7 +203,9 @@ namespace Paweł_Lidzbarski___logowanie_do_bazy_danych.Pages
 					checkingPassword();
 					if (succesLogin == true && succesHaslo == true)
 					{
-						(App.Current.MainWindow as MainWindow).rootFrame.Navigate(new Pages.User());
+						dane._login = login.Text;
+						dane._haslo = password.Password;
+						(App.Current.MainWindow as MainWindow).rootFrame.Navigate(new Pages.User(dane));
 						gridLogowawnie.Visibility = Visibility.Hidden;
 						main_grid.Visibility = Visibility.Hidden;
 
